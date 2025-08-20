@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "updating packages:"
+sudo apt-get update
+sudo apt udpate
 
 echo "installing net tools:"
 sudo apt install net-tools
@@ -19,7 +22,7 @@ sudo apt install openssh-server openssh-client
 echo "installing docker:"
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-sudo apt install docker-compose
+sudo apt install docker-compose-plugin
 
 echo "installing npm:"
 sudo apt install npm

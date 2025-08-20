@@ -27,4 +27,6 @@ sudo apt install npm
 echo "installing nodejs:"
 sudo apt install nodejs
 
+echo "installing claude code:"
+sudo npm install -g @anthropic-ai/claude-code
 

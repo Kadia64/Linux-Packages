@@ -19,6 +19,7 @@ sudo apt install openssh-server openssh-client
 echo "installing docker:"
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+sudo apt install docker-compose
 
 echo "installing npm:"
 sudo apt install npm
